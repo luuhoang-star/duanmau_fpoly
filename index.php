@@ -12,7 +12,7 @@ $dstop10 = loadall_sanpham_top10();
 if (isset($_GET['act']) && ($_GET['act'] != "")) {
     $act = $_GET['act'];
     switch($act) {
-        case "sanphamct":
+        case "sanphamct":  // trang chi tiết sản phẩm
             if(isset($_POST['guibinhluan'])){
                 insert_binhluan($_POST['idpro'], $_POST['noidung']);
             }
