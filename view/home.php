@@ -1,4 +1,4 @@
-<main class="catalog  mb ">
+<main class="catalog  mb "> // phần main của trang index.html
           
           <div class="boxleft">
                <div class="banner">
